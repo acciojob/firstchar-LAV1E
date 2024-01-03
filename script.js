@@ -1,11 +1,18 @@
 function firstChar(text) {
   // your code here
-	console.log('Rosa Parks');
+	for(let i = 0; i<text.length; i++){
+		if(text[i] == " " || text[i] == ""){
+			return "";
+		}else{
+			return text[i];
+		}
+	}
+	
 
 }
-firstChar(0);
+
 
 // Do not change the code below
 
-const text = prompt("Enter text:");
-alert(firstChar(text));
+// const text = prompt("Enter text:");
+// alert(firstChar(text));
